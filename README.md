@@ -1,4 +1,4 @@
-# NAN Angular App
+# Example Angular App
 
 ## Development server
 
