@@ -81,3 +81,5 @@ location / {
 These ensure that when the client browser requests `nmrbox.org/pages/community` the nginx
 server instead returns the file `/index.html` which is necessary since the `/pages/community`
 part of the URL is interpreted inside of the client Angular code.
+
+Also note that you will need to set up LetsEncrypt to get the relevant SSL certificate to insert into the nginx config above, and update the domains to the appropriate domain.
